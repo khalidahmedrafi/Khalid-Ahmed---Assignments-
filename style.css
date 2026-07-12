@@ -1,3 +1,9 @@
+.head {
+  width: 1551;
+  height: 98;
+}
+
+
 nav {
   background-color: white;
   display: flex;
@@ -10,9 +16,13 @@ nav {
 
 
 .menu {
+  position: 482.5, 12;
+  width: 363;
+  height: 26;
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 24px;
+  color: #575757;
 }
 
 
@@ -27,9 +37,12 @@ nav {
 
 .register-btn {
   display: inline-block;
-  background-color: #2563EB;
+  background-color: #1D4ED8;
+  width: 188;
+  height: 48;
+  gap: 12;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 12px;
   font-size: 15px;
   border-radius: 10px;
   text-decoration-line: none;
