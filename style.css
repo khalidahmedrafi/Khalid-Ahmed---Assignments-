@@ -7,11 +7,15 @@ nav {
   margin: auto;
 }
 
+
+
 .menu {
   display: flex;
   list-style: none;
   gap: 20px;
 }
+
+
 
 .logo {
   display: flex;
@@ -19,13 +23,526 @@ nav {
   gap: 10px;
 }
 
+
+
 .register-btn {
   display: inline-block;
   background-color: blue;
   color: white;
-  padding: 10px 20px;
-  font-size: 15px;
+  padding: 15px 25px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  background: url('image/banner.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+
+
+.hero-prg {
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+
+}
+
+
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin: 25px;
+  letter-spacing: -1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+
+}
+
+
+
+.section-Register {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 15px 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+
+
+.section-title {
+  text-align: center;
+}
+
+
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  min-width: 1000px;
+  margin: 0 auto;
+  gap: 32px;
+}
+
+
+
+.speaker-card {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+
+
+.speaker-img-box {
+  width: 100%;
+  height: 270px;
+  background-color: wheat;
+}
+
+
+
+
+.speaker-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+.speaker-details {
+  padding: 24px 20px;
+}
+
+
+
+.tag {
+  display: inline-block;
+  color: green;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+
+}
+
+
+
+.speaker-details h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 6px 0;
+}
+
+
+
+.speaker-details p {
+  margin: 0;
+  font-size: 1rem;
+  color: black;
+
+}
+
+
+.pricing {
+  padding: 100px 0;
+  background-color: white;
+}
+
+
+.section-subtitle {
+  font-size: 1rem;
+  margin-bottom: 56px;
+  text-align: center;
+  margin-top: -36px;
+
+}
+
+
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+
+
+.price-card {
+  background: white#;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.price-card.featured {
+  background: black;
+  color: white;
+  border: none;
+}
+
+
+
+.price-header {
+  margin-bottom: 30px;
+}
+
+
+
+.plan-name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: black;
+}
+
+
+
+
+.featured .plan-name {
+  color: black;
+}
+
+
+
+.plan-price {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 12px 0 4px 0;
+  color: black;
+}
+
+
+.featured .plan-price {
+  color: white;
+}
+
+
+
+.plan-per {
+  font-size: 0.8rem;
+  color: black;
+}
+
+
+
+
+.featured .plan-per {
+  color: silver;
+}
+
+
+.plan-features {
+  list-style: none;
+  margin-bottom: 40px;
+  flex-grow: 1;
+}
+
+
+
+
+.plan-features li {
+  font-size: 0.85rem;
+  color: black;
+  margin-bottom: 14px;
+  position: relative;
+  padding-left: 18px;
+}
+
+
+
+.featured .plan-features li {
+  color: white;
+}
+
+
+
+
+.plan-features li::before {
+  content: "•";
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+
+
+
+
+
+.btn-outline,
+.btn-solid-blue,
+.btn-outline-dark {
+
+  padding: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: block;
+  text-align: center;
+}
+
+
+
+
+.btn-outline {
+  border: 1px solid black;
+  color: black;
+}
+
+
+
+.btn-outline:hover {
+  background: #2563eb;
+  color: white;
+}
+
+
+.btn-solid-blue {
+  background: #2563eb;
+  color: white;
+}
+
+
+
+.btn-solid-blue:hover {
+  background: #1d4ed8;
+}
+
+
+
+.btn-outline-dark {
+  border: 1px solid black;
+  color: black;
+}
+
+
+
+.btn-outline-dark:hover {
+  background: #1d4ed8;
+  color: white;
+}
+
+/* -------------------------------------------------------------------- */
+/* Ai Section */
+/* --- REGISTRATION FORM STYLES --- */
+.registration-section {
+  padding: 100px 20px;
+  background-color: #f8fafc;
+  /* লাইট ব্লু-গ্রে ব্যাকগ্রাউন্ড যা প্রাইসিং সেকশনের সাথে ম্যাচ করবে */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.reg-container {
+  max-width: 650px;
+  /* ফর্মটিকে দেখতে সুন্দর এবং কম্প্যাক্ট রাখার জন্য */
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 48px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+}
+
+.reg-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.reg-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.reg-header p {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+/* ফর্মের ইনপুট গ্রিড লেআউট */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* পাস টাইপ সিলেক্ট বক্সটিকে পুরো চওড়া করার জন্য */
+.form-group.full-width {
+  grid-column: span 2;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+/* ইনপুট, সিলেক্ট বক্সের ডিজাইন */
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  border: 1px solid #cbd5e1;
   border-radius: 8px;
+  background-color: #ffffff;
+  color: #0f172a;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* ইনপুটে ক্লিক করলে ব্লু বর্ডার আসবে */
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
+
+/* চেকবক্স স্টাইল */
+.form-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.form-checkbox input {
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.form-checkbox label {
+  font-size: 0.85rem;
+  color: #475569;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+/* সাবমিট বাটন (ডিজাইনের সাথে ম্যাচিং রয়্যাল ব্লু) */
+.btn-submit {
+  width: 100%;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: #1d4ed8;
+}
+
+/* মোবাইল রেসপনসিভ (ছোট স্ক্রিনে ফর্ম গ্রিড সিঙ্গেল কলাম হয়ে যাবে) */
+@media (max-width: 640px) {
+  .reg-container {
+    padding: 32px 20px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group.full-width {
+    grid-column: span 1;
+  }
+}
+
+/* ---------------footer--------------------- */
+
+.site-footer {
+  background-color: #0D1B2A;
+  padding: 56px 0 32px 0;
+  width: 100%;
+  margin: 0%;
+  left: 0;
+  bottom: 0;
+
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+
+}
 
 
+.footer-bottom p {
+  font-size: 0.85rem;
+  color: white;
+  margin: 0;
+  text-align: left;
+}
+
+.footer-rights p {
+  font-size: 0.85rem;
+  align-content: center;
+  color: white;
+  margin: 0;
+  text-align: right;
 }
