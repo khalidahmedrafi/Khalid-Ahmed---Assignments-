@@ -40,8 +40,8 @@ nav {
 
 .hero-section {
   position: relative;
-  width: 100%;
-  min-height: 80vh;
+  width: 1551;
+  height: 3801;
   background: url('image/banner.jpg') no-repeat center center/cover;
   display: flex;
   justify-content: center;
@@ -57,7 +57,9 @@ nav {
 
 .hero-prg {
   max-width: 800px;
-  width: 100%;
+  height: 108;
+  width: 829;
+  position: 421, 247;
   margin-bottom: 40px;
   padding: auto;
   font-size: 1.1rem;
@@ -72,7 +74,11 @@ nav {
   font-weight: bold;
   margin-top: 20px;
   margin: 25px;
-  letter-spacing: -1px;
+  letter-spacing: -3.2px;
+  height: 80;
+  width: 959;
+  height: 95;
+  position: 340, 136;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -81,6 +87,9 @@ nav {
 
 .meet-speakers {
   max-width: 1200px;
+  height: 1088;
+  width: 1321;
+  border-spacing: 32;
   margin-left: auto;
   margin-right: auto;
 }
@@ -99,7 +108,7 @@ nav {
 
 .section-Register {
   display: inline-block;
-  background-color: #2563EB;
+  background-color: #1D4ED8;
   color: white;
   padding: 15px 25px;
   font-size: 20px;
@@ -165,7 +174,7 @@ nav {
 
 .tag {
   display: inline-block;
-  color: green;
+  color: #2563EB;
   margin-bottom: 8px;
   font-size: 1rem;
   font-weight: 700;
@@ -193,6 +202,8 @@ nav {
 
 .pricing {
   padding: 100px 0;
+  height: 668;
+  width: 144;
   background-color: white;
 }
 
@@ -234,11 +245,10 @@ nav {
 
 
 .price-card.featured {
-  background: black;
+  background: #0D1B2A;
   color: white;
   border: none;
 }
-
 
 
 .price-header {
@@ -249,15 +259,16 @@ nav {
 
 .plan-name {
   font-size: 0.75rem;
+  text-decoration-color: #bcccdf;
   font-weight: 700;
-  color: black;
+  color: #888888;
 }
 
 
 
 
 .featured .plan-name {
-  color: black;
+  color: #93C5FD;
 }
 
 
@@ -530,6 +541,9 @@ nav {
 
 .site-footer {
   background-color: #0D1B2A;
+  height: 145;
+  width: 1551;
+  position: 951, 3050;
   padding: 56px 0 32px 0;
   width: 100%;
   margin: 0 !important
