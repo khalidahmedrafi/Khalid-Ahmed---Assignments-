@@ -123,10 +123,13 @@ nav {
   display: inline-block;
   background-color: #1D4ED8;
   color: white;
-  padding: 15px 25px;
-  font-size: 20px;
+  padding: 12px 12px;
+  width: 282;
+  height: 74;
+  gap: 12;
+  position: 652, 633;
+  font-size: 24px;
   border-radius: 10px;
-  align-items: flex-end;
   margin-bottom: 20px;
   text-decoration-line: none;
 }
@@ -589,4 +592,26 @@ nav {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+}
+
+.logo-right-container {
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+
+
 }
